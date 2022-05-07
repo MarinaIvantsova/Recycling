@@ -1,9 +1,14 @@
-.content_container {
-    max-width: 1440px;
-    margin: 0px auto;
+
+.banner {
+    background-image: url('./assets/banner.png');
+    background-size: cover;
+	max-width: 100%;
 }
 
 
+.header h1 {
+    font-size: 2rem;
+}
 .header_container {
     display: flex;
     flex-wrap: wrap;
@@ -22,10 +27,6 @@
 }
 
 
-.header h1 {
-    font-size: 2rem;
-}
-
 .box {
     font-family: 'Roboto', sans-serif;
     
@@ -41,6 +42,17 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+.aboutUs_text {
+    min-height: 90%;
+    max-width: 45%;
+    padding-top: 20px;
+    background-color: #C4C4C4;
+    color: white;
+    font-size: 22px;
+    border-radius: 15px;
+}
+
 .about_us {
     max-width: 50%;
     margin-left: auto;
@@ -48,6 +60,7 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
 
 
 .recycle {
@@ -133,22 +146,43 @@
     
 }
 
-.map-container {
-    width: 100%;
-    margin-bottom: 50px;
-}
 
-.map-container__map {
-    width: fit-content;
-    margin: 0 auto;
 }
-
-.map-container h2 {
-    font-size: 500;
+.footer a { 
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.footer-group__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+}
+.footer-group {
+    /* max-width: 655px; */
+    display: flex;
+    justify-content: space-around;
     text-align: center;
-    margin-top: 50px;
-
+    margin: 0 auto;
+    gap: 200px;
 }
+.footer p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+footer-group____call, footer-group____request, footer-group____social {
+    margin: auto 1px;
+}
+footer-group____call {
+    max-width: 141px;
+}
+footer-group____request {
 
 
 .footer {
